@@ -58,14 +58,20 @@
 <link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
 <link href="libs/bsTable-3.3.7/bootstrapTable.min.css" rel="stylesheet" />
 <script src="libs/bsTable-3.3.7/bootstrapTable.js"></script>
-<script src="libs/htmlwidgets-1.6.2/htmlwidgets.js"></script>
+<link href="libs/crosstalk-1.2.1/css/crosstalk.min.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.2.1/js/crosstalk.min.js"></script>
+<link href="libs/selectize-0.12.4/css/selectize.bootstrap3.css" rel="stylesheet" />
+<script src="libs/selectize-0.12.4/js/selectize.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="libs/bootstrap-grid-3.4.1/bootstrap-grid.min.css" rel="stylesheet" />
+<script src="libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
 <link href="libs/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
 <script src="libs/leaflet-1.3.1/leaflet.js"></script>
 <link href="libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet" />
 <script src="libs/proj4-2.6.2/proj4.min.js"></script>
 <script src="libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
 <link href="libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
-<script src="libs/leaflet-binding-2.1.2/leaflet.js"></script>
+<script src="libs/leaflet-binding-2.2.1/leaflet.js"></script>
 <link href="libs/leaflet-easybutton-1.3.1/easy-button.css" rel="stylesheet" />
 <script src="libs/leaflet-easybutton-1.3.1/easy-button.js"></script>
 <script src="libs/leaflet-easybutton-1.3.1/EasyButton-binding.js"></script>
@@ -73,23 +79,17 @@
 <script src="libs/leaflet-locationfilter2-0.1.1/locationfilter.js"></script>
 <script src="libs/leaflet-locationfilter2-0.1.1/locationfilter-bindings.js"></script>
 <link href="libs/ionicons-2.0.1/ionicons.min.css" rel="stylesheet" />
-<link href="libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet" />
-<script src="libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
-<script src="libs/plotly-binding-4.10.1/plotly.js"></script>
+<script src="libs/plotly-binding-4.10.3/plotly.js"></script>
 <script src="libs/typedarray-0.1/typedarray.min.js"></script>
 <link href="libs/plotly-htmlwidgets-css-2.11.1/plotly-htmlwidgets.css" rel="stylesheet" />
 <script src="libs/plotly-main-2.11.1/plotly-latest.min.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="libs/bootstrap-grid-3.4.1/bootstrap-grid.min.css" rel="stylesheet" />
 <link href="libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
-<script src="libs/datatables-binding-0.28/datatables.js"></script>
-<link href="libs/dt-core-1.13.4/css/jquery.dataTables.min.css" rel="stylesheet" />
-<link href="libs/dt-core-1.13.4/css/jquery.dataTables.extra.css" rel="stylesheet" />
-<script src="libs/dt-core-1.13.4/js/jquery.dataTables.min.js"></script>
+<script src="libs/datatables-binding-0.31/datatables.js"></script>
+<link href="libs/dt-core-1.13.6/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="libs/dt-core-1.13.6/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="libs/dt-core-1.13.6/js/jquery.dataTables.min.js"></script>
 <link href="libs/nouislider-7.0.10/jquery.nouislider.min.css" rel="stylesheet" />
 <script src="libs/nouislider-7.0.10/jquery.nouislider.min.js"></script>
-<link href="libs/selectize-0.12.0/selectize.bootstrap3.css" rel="stylesheet" />
-<script src="libs/selectize-0.12.0/selectize.min.js"></script>
 
 
 
@@ -196,7 +196,7 @@ Criado M.G., Väre H., Nieto A., Elias R.B., Dyer R., Ivanenko Y., Ivanova D., L
 De Knijf G., Westra T., Onkelinx T., Quataert P. &amp; Pollet M. (2014). Monitoring <span>Natura</span> 2000-soorten en overige soorten prioritair voor het <span>Vlaams</span> beleid. <span>Blauwdrukken</span> soortenmonitoring in <span>Vlaanderen</span>. Rapporten van het <span>Instituut</span> voor <span>Natuur</span>- en <span>Bosonderzoek</span>, Nr. 2319355. Instituut voor Natuur- en Bosonderzoek, België.
 </div>
 <div class="csl-entry">
-Onkelinx T. (2023). effectclass: Classification and visualisation of effects. <a href="https://effectclass.netlify.com">https://effectclass.netlify.com</a>.
+Onkelinx T., Vermeersch G. &amp; Devos K. (2023). Trends op basis van de Algemene Broedvogelmonitoring Vlaanderen (ABV). Instituut voor Natuur- en Bosonderzoek, Belgi<span>ë</span>. https://doi.org/<a href="https://doi.org/10.21436/inbor.89419879">https://doi.org/10.21436/inbor.89419879</a>.
 </div>
 <div class="csl-entry">
 Piesschaert F., Landuyt W.V., Brosens D., Westra T., Desmet P., Ledegen H., Steeman R. &amp; Pollet M. (2022b). Meetnetten.be - <span>Occupancy</span> estimates of priority vascular plants species in <span>Flanders</span>, <span>Belgium</span>. <a href="https://doi.org/10.15468/3775j6">https://doi.org/10.15468/3775j6</a>.
@@ -236,6 +236,12 @@ Verloove F., Van Rossum F., Devriese H., Matysiak J.-P., Ronse A., Van de Beek A
 </div>
 <div class="csl-entry">
 Westra T., De Knijf G. &amp; Pollet M. (2014). Inleiding tot de blauwdrukken. In: De Knijf G., Westra T., Onkelinx T., Quataert P. &amp; Pollet M. (eds.). Monitoring <span>Natura</span> 2000-soorten en overige soorten prioritair voor het <span>Vlaams</span> beleid, Rapporten van het <span>Instituut</span> voor <span>Natuur</span>- en <span>Bosonderzoek</span>, Nr. 2319355. Instituut voor Natuur- en Bosonderzoek, België, p. 10–24.
+</div>
+<div class="csl-entry">
+Westra T., Knijf G.D., Ledegen H., Poel S.V. de, Piesschaert F. &amp; Onkelinx T. (2021). Resultaten van de Vlaamse libellenmeetnetten voor de periode 2016 - 2020. Instituut voor Natuur- en Bosonderzoek, Belgi<span>ë</span>. https://doi.org/<a href="https://doi.org/10.21436/inbor.34106517">https://doi.org/10.21436/inbor.34106517</a>.
+</div>
+<div class="csl-entry">
+Westra T., Maes D., Poel S.V. de &amp; Onkelinx T. (2022). Resultaten van de dagvlindermeetnetten in Vlaanderen. Instituut voor Natuur- en Bosonderzoek, Belgi<span>ë</span>. https://doi.org/<a href="https://doi.org/10.21436/inbor.70771847">https://doi.org/10.21436/inbor.70771847</a>.
 </div>
 <div class="csl-entry">
 Westra T., Piesschaert F., Onkelinx T. &amp; Ledegen H. (2019). Voortgangsrapport soortenmeetnetten: <span>Stand</span> van zaken na drie jaar monitoring. Rapporten van het <span>Instituut</span> voor <span>Natuur</span>- en <span>Bosonderzoek</span>, Nr. 57. Instituut voor Natuur- en Bosonderzoek, België. <a href="https://doi.org/10.21436/inbor.17506104">https://doi.org/10.21436/inbor.17506104</a>.
